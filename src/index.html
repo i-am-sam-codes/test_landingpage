@@ -17,9 +17,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="overflow-x-clip">
+  <body class="overflow-x-hidden">
     <header class="w-full h-28 flex justify-between items-center bg-zinc-800">
-      <img src="" alt="Site TMD Logo" class="w-full" />
+      <div class="flex w-96 justify-end">
+        <img
+          src="/assets/tmdLogo.svg"
+          alt="Site TMD Logo"
+          width="128"
+          height="128"
+        />
+      </div>
+
       <nav class="w-full">
         <ul class="flex justify-around text-xl text-white">
           <li class="hover:text-peach"><a href="#">Home</a></li>
@@ -31,84 +39,126 @@
     <div class="flex flex-row relative h-screen bg-orange-50 justify-between">
       <div class="flex flex-col w-64 mt-24 h-full ml-36">
         <h1 class="text-8xl font-bold">VIVAMUS INTERDUM</h1>
-        <p class="text-lg">
+        <p class="text-lg w-[529px] mt-10">
           Quiseque facillisis Lorem ipsum dolor, sit amet consectetur
           adipisicing elit. Voluptatum eveniet saepe rerum, iusto dolorem ad ea?
           Maiores reprehenderit maxime quos quibusdam porro. Corporis ut quam
-          consectetur quasi ipsa quas consequuntur.
+          consectetur quasi ipsa quas consequuntur. Corporis ut quam consectetur
+          quasi ipsa quas consequuntur.
         </p>
-        <button>Learn More</button>
+        <button class="bg-[#4E94BF] w-40 h-10 rounded-lg mt-10 text-white">
+          Learn More
+        </button>
       </div>
       <div>
         <img
           src="/assets/CoffeeBag-Header.png"
           alt="Battlecreek coffee decaf coffee bag"
-          class="h-100 absolute top-8 left-1/2 -rotate-45"
+          class="h-100 absolute top-8 left-1/2 -rotate-[21deg]"
         />
       </div>
     </div>
     <div>
-      <section class="flex flex-col h-96 bg-[#F3A897]">
-        <h2>Lorem ipsum dolor site</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eius
-          mollitia aut quaerat id quidem fugit unde cumque quis doloremque,
-          itaque sunt veniam, molestiae pariatur rem sequi quas. Obcaecati,
-          unde.
-        </p>
+      <section class="flex flex-col justify-items-start h-96 bg-[#F3A897]">
+        <div class="mt-24 ml-36">
+          <h2 class="text-2xl font-bold">Lorem ipsum dolor site</h2>
+          <p class="w-[946px] mt-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            eius mollitia aut quaerat id quidem fugit unde cumque quis
+            doloremque, itaque sunt veniam, molestiae pariatur rem sequi quas.
+            Obcaecati, unde.
+          </p>
+        </div>
       </section>
     </div>
 
-    <div class="flex flex-col justify-center">
-      <div class="text-3xl font-bold">
+    <div
+      class="flex flex-col justify-center overflow-x-scroll bg-gradient-to-b from-[#B4B58A] to-[#F7F3ED]"
+    >
+      <div class="flex justify-center text-3xl font-bold">
         <h3>VIVAMUS SAGITTIS CONSEQUAT</h3>
       </div>
-      <div class="flex items-center justify-end snap-x snap-mandatory">
-        <div>
-          <img src="/assets/Coffee-Cherry-slider-1.jpg" alt="coffee cheeries" />
+      <div
+        class="flex items-center justify-end w-max overflow-x-scroll snap-x snap-mandatory"
+      >
+        <div class="snap-always snap-center">
+          <img
+            src="/assets/Coffee-Cherry-slider-1.jpg"
+            width="526"
+            height="768"
+            alt="coffee cheeries"
+          />
         </div>
-        <div>
+        <div class="snap-always snap-center">
           <img
             src="/assets/grower-slider-2.jpg"
+            width="526"
+            height="768"
             alt="coffee grower picking coffee cherries"
           />
         </div>
-        <div>
+        <div class="snap-always snap-center">
           <img
             src="/assets/CoffeeWorker-slider-3.jpg"
+            width="526"
+            height="754"
             alt="coffee feid worker standing working"
           />
         </div>
-        <div>
-          <img src="/assets/Roaster-Slider-4.jpg" alt="coffee roaster" />
+        <div class="snap-always snap-center">
+          <img
+            src="/assets/Roaster-Slider-4.jpg"
+            width="526"
+            height="768"
+            alt="coffee roaster"
+          />
         </div>
-        <div>
+        <div class="snap-always snap-center">
           <img
             src="/assets/pourover-slider-5.jpg"
+            width="526"
+            height="768"
             alt="making pourover coffee"
           />
         </div>
       </div>
     </div>
-    <div>
-      <i class="fas fa-coffee">Veit Fermentum</i>
-      <i class="fas fa-trophy">Blandit</i>
-      <i class="far fa-smile">Praesent Vitae</i>
-      <i class="far fa-check-circle">Scelerisque neque</i>
+    <div class="w-full h-60 text-white justify-between bg-[#4E94BF]">
+      <div class="flex flex-row justify-around text-4xl">
+        <i class="fas fa-coffee"></i>
+        <i class="fas fa-trophy"></i>
+        <i class="far fa-smile"></i>
+        <i class="far fa-check-circle"></i>
+      </div>
+      <div class="flex justify-around">
+        <p>Veit Fermentum</p>
+        <p>Blandit</p>
+        <p>Praesent Vitae</p>
+        <p>Scelerisque neque</p>
+      </div>
     </div>
     <footer>
-      <img src="" alt="tmd logo" />
-      <nav>
-        <ul>
+      <div
+        class="relative w-full h-96 flex flex-row text-white justify-between items-center bg-zinc-800"
+      >
+        <div class="flex w-96 justify-end">
+          <img
+            src="/assets/tmdLogo.svg"
+            alt="Site TMD Logo"
+            width="128"
+            height="128"
+          />
+        </div>
+        <ul class="flex flex-row">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
-      <div>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube-square"></i>
+        <div class="absolute bottom-16 right-24 text-3xl">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
       </div>
     </footer>
   </body>
