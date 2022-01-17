@@ -1177,7 +1177,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.5;
 }
 
+.hover\:bg-\[\#B4B58A\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 181 138 / var(--tw-bg-opacity));
+}
+
 .hover\:text-peach:hover {
   --tw-text-opacity: 1;
   color: rgb(250 185 149 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#B4B58A\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(180 181 138 / var(--tw-text-opacity));
 }
