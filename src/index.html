@@ -18,8 +18,10 @@
     ></script>
   </head>
   <body class="overflow-x-hidden">
-    <header class="w-full h-28 flex justify-between items-center bg-zinc-800">
-      <div class="flex w-96 justify-end">
+    <header
+      class="w-full h-[151px] flex justify-between items-center bg-zinc-800"
+    >
+      <div class="flex w-56 justify-end">
         <img
           src="/assets/tmdLogo.svg"
           alt="Site TMD Logo"
@@ -28,23 +30,22 @@
         />
       </div>
 
-      <nav class="w-full">
-        <ul class="flex justify-around text-xl text-white">
-          <li class="hover:text-peach"><a href="#">Home</a></li>
-          <li class="hover:text-peach"><a href="#">About</a></li>
-          <li class="hover:text-peach"><a href="#">Contact</a></li>
+      <nav class="w-3/5">
+        <ul class="flex justify-evenly items-center text-xl text-white">
+          <li class="hover:text-peach"><a href="#">Neque porro</a></li>
+          <li class="hover:text-peach"><a href="#">Quisquam</a></li>
+          <li class="hover:text-peach"><a href="#">Dolorem ipsum</a></li>
         </ul>
       </nav>
     </header>
     <div class="flex flex-row relative h-screen bg-orange-50 justify-between">
       <div class="flex flex-col w-64 mt-24 h-full ml-36">
         <h1 class="text-8xl font-bold">VIVAMUS INTERDUM</h1>
-        <p class="text-lg w-[529px] mt-10">
+        <p class="text-lg w-[450px] mt-10">
           Quiseque facillisis Lorem ipsum dolor, sit amet consectetur
           adipisicing elit. Voluptatum eveniet saepe rerum, iusto dolorem ad ea?
           Maiores reprehenderit maxime quos quibusdam porro. Corporis ut quam
-          consectetur quasi ipsa quas consequuntur. Corporis ut quam consectetur
-          quasi ipsa quas consequuntur.
+          consectetur quasi ipsa quas consequuntur.
         </p>
         <button
           class="hover:bg-[#B4B58A] bg-[#4E94BF] w-40 h-10 rounded-lg mt-10 text-white"
@@ -62,9 +63,9 @@
     </div>
     <div>
       <section class="flex flex-col justify-items-start h-96 bg-[#F3A897]">
-        <div class="mt-24 ml-36">
-          <h2 class="text-2xl font-bold">Lorem ipsum dolor site</h2>
-          <p class="w-[946px] mt-5">
+        <div class="mt-24 ml-36 border-l-8 border-white-500">
+          <h2 class="text-3xl font-bold">Lorem ipsum dolor site</h2>
+          <p class="w-[825px] mt-5 text-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
             eius mollitia aut quaerat id quidem fugit unde cumque quis
             doloremque, itaque sunt veniam, molestiae pariatur rem sequi quas.
@@ -147,9 +148,9 @@
     </div>
     <footer>
       <div
-        class="relative w-full h-96 flex flex-row text-white justify-between items-center bg-zinc-800"
+        class="relative w-full h-96 flex flex-row text-white justify-between bg-zinc-800"
       >
-        <div class="flex w-96 justify-end">
+        <div class="flex w-56 justify-end">
           <img
             src="/assets/tmdLogo.svg"
             alt="Site TMD Logo"
@@ -157,11 +158,13 @@
             height="128"
           />
         </div>
-        <ul class="flex flex-row">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="w-3/5 ml-20 mt-24">
+          <ul class="flex justify-evenly text-xl text-white">
+            <li><a href="#">Neque porro</a></li>
+            <li><a href="#">quisquam</a></li>
+            <li><a href="#">dolorem ipsum</a></li>
+          </ul>
+        </div>
         <div class="absolute bottom-16 right-24 text-3xl">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-instagram"></i>
