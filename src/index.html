@@ -94,50 +94,81 @@
       <div class="flex justify-center mt-24 text-3xl font-bold">
         <h3>VIVAMUS SAGITTIS CONSEQUAT</h3>
       </div>
+
+      <!-- Carousel beginning -->
       <div
-        class="flex items-center justify-end w-max overflow-x-scroll snap-x snap-mandatory"
+        class="swiffy-slider slider-item-show3 slider-item-reveal slider-item-ratio slider-item-ratio-3x4 slider-nav-arrow slider-nav-autoplay slider-nav-autopause slider-indicators-round slider-indicators-highlight slider-nav-animation slider-nav-animation-appear"
+        data-slider-nav-autoplay-interval="3250"
       >
-        <div class="snap-always snap-center">
-          <img
-            src="/assets/Coffee-Cherry-slider-1.jpg"
-            width="526"
-            height="768"
-            alt="coffee cheeries"
-          />
-        </div>
-        <div class="snap-always snap-center">
-          <img
-            src="/assets/grower-slider-2.jpg"
-            width="526"
-            height="768"
-            alt="coffee grower picking coffee cherries"
-          />
-        </div>
-        <div class="snap-always snap-center">
-          <img
-            src="/assets/CoffeeWorker-slider-3.jpg"
-            width="526"
-            height="754"
-            alt="coffee feid worker standing working"
-          />
-        </div>
-        <div class="snap-always snap-center">
-          <img
-            src="/assets/Roaster-Slider-4.jpg"
-            width="526"
-            height="768"
-            alt="coffee roaster"
-          />
-        </div>
-        <div class="snap-always snap-center">
-          <img
-            src="/assets/pourover-slider-5.jpg"
-            width="526"
-            height="768"
-            alt="making pourover coffee"
-          />
-        </div>
+        <ul class="slider-container">
+          <li class="slide-visible">
+            <div id="slide1">
+              <img
+                src="/assets/Coffee-Cherry-slider-1.jpg"
+                width="526"
+                height="768"
+                alt="coffee cheeries"
+              />
+            </div>
+          </li>
+          <li class="slide-visible">
+            <div id="slide2">
+              <img
+                src="/assets/grower-slider-2.jpg"
+                width="526"
+                height="768"
+                alt="coffee grower picking coffee cherries"
+              />
+            </div>
+          </li>
+          <li class="slide-visible">
+            <div id="slide3">
+              <img
+                src="/assets/CoffeeWorker-slider-3.jpg"
+                width="526"
+                height="754"
+                alt="coffee feid worker standing working"
+              />
+            </div>
+          </li>
+          <li class="slide-visible">
+            <div id="slide4">
+              <img
+                src="/assets/Roaster-Slider-4.jpg"
+                width="526"
+                height="768"
+                alt="coffee roaster"
+              />
+            </div>
+          </li>
+          <li class="">
+            <div id="slide5">
+              <img
+                src="/assets/pourover-slider-5.jpg"
+                width="526"
+                height="768"
+                alt="making pourover coffee"
+              />
+            </div>
+          </li>
+        </ul>
+
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+
+        <ul class="slider-indicators">
+          <li class=""></li>
+          <li class=""></li>
+          <li class=""></li>
+          <li class="active"></li>
+          <li class=""></li>
+          <li class=""></li>
+          <li></li>
+          <li class=""></li>
+          <li class=""></li>
+        </ul>
       </div>
+      <!-- Carousel end -->
     </div>
     <div class="w-full h-96 text-white justify-between bg-[#4E94BF]">
       <div
