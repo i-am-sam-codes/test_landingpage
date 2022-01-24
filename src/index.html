@@ -30,7 +30,7 @@
   </head>
   <body class="overflow-x-hidden">
     <header
-      class="w-full h-[151px] flex justify-between items-center bg-zinc-800"
+      class="flex h-[151px] w-full items-center justify-between bg-zinc-800"
     >
       <div class="flex w-56 justify-end">
         <img
@@ -42,24 +42,24 @@
       </div>
 
       <nav class="w-3/5">
-        <ul class="flex justify-evenly items-center text-xl text-white">
+        <ul class="flex items-center justify-evenly text-xl text-white">
           <li class="hover:text-peach"><a href="#">Neque porro</a></li>
           <li class="hover:text-peach"><a href="#">Quisquam</a></li>
           <li class="hover:text-peach"><a href="#">Dolorem ipsum</a></li>
         </ul>
       </nav>
     </header>
-    <div class="flex flex-row relative h-screen bg-orange-50 justify-between">
-      <div class="flex flex-col w-64 mt-24 h-full ml-36">
+    <div class="relative flex h-screen flex-row justify-between bg-orange-50">
+      <div class="mt-24 ml-36 flex h-full w-64 flex-col">
         <h1 class="text-8xl font-bold">VIVAMUS INTERDUM</h1>
-        <p class="text-lg w-[450px] mt-10">
+        <p class="mt-10 w-[450px] text-lg">
           Quiseque facillisis Lorem ipsum dolor, sit amet consectetur
           adipisicing elit. Voluptatum eveniet saepe rerum, iusto dolorem ad ea?
           Maiores reprehenderit maxime quos quibusdam porro. Corporis ut quam
           consectetur quasi ipsa quas consequuntur.
         </p>
         <button
-          class="hover:bg-[#B4B58A] bg-[#4E94BF] w-40 h-10 rounded-lg mt-10 text-white"
+          class="mt-10 h-10 w-40 rounded-lg bg-[#4E94BF] text-white hover:bg-[#B4B58A]"
         >
           Learn More
         </button>
@@ -73,12 +73,12 @@
       </div>
     </div>
     <div>
-      <section class="flex flex-col justify-items-start h-96 bg-[#F3A897]">
-        <div class="mt-16 ml-32 border-l-8 h-60 border-white-500">
+      <section class="flex h-96 flex-col justify-items-start bg-[#F3A897]">
+        <div class="border-white-500 mt-16 ml-32 h-60 border-l-8">
           <div class="mt-24 ml-36">
-            <div class="items-center h-28">
+            <div class="h-28 items-center">
               <h2 class="text-3xl font-bold">Lorem ipsum dolor site</h2>
-              <p class="w-[825px] mt-5 text-lg">
+              <p class="mt-5 w-[825px] text-lg">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
                 eius mollitia aut quaerat id quidem fugit unde cumque quis
                 doloremque, itaque sunt veniam, molestiae pariatur rem sequi
@@ -91,22 +91,20 @@
     </div>
 
     <div
-      class="flex flex-col justify-center overflow-x-scroll h-80 bg-gradient-to-b from-[#B4B58A] to-[#F7F3ED]"
+      class="flex h-80 flex-col justify-center overflow-x-scroll bg-gradient-to-b from-[#B4B58A] to-[#F7F3ED]"
     >
-      <div class="flex justify-center items-center text-3xl font-bold">
+      <div class="flex items-center justify-center text-3xl font-bold">
         <h3 class="mt-10">VIVAMUS SAGITTIS CONSEQUAT</h3>
       </div>
       <!-- Carousel beginning -->
       <div
-        class="mt-10 swiffy-slider slider-item-show3 slider-item-reveal slider-nav-dark slider-nav-outside-expand"
+        class="swiffy-slider slider-item-show3 slider-item-reveal slider-nav-dark slider-nav-outside-expand mt-10"
       >
-        <ul class="slider-container py-4" id="slider2">
-          <li class="rounded-lg">
+        <ul class="slider-container py-4">
+          <li>
             <div class="ratio ratio-1x1">
               <img
                 src="/assets/Coffee-Cherry-slider-1.jpg"
-                width="526"
-                height="768"
                 alt="coffee cheeries"
               />
             </div>
@@ -115,8 +113,6 @@
             <div class="ratio ratio-1x1">
               <img
                 src="/assets/grower-slider-2.jpg"
-                width="526"
-                height="768"
                 alt="coffee grower picking coffee cherries"
               />
             </div>
@@ -125,28 +121,19 @@
             <div class="ratio ratio-1x1">
               <img
                 src="/assets/CoffeeWorker-slider-3.jpg"
-                width="526"
-                height="754"
                 alt="coffee feid worker standing working"
               />
             </div>
           </li>
           <li>
             <div class="ratio ratio-1x1">
-              <img
-                src="/assets/Roaster-Slider-4.jpg"
-                width="526"
-                height="768"
-                alt="coffee roaster"
-              />
+              <img src="/assets/Roaster-Slider-4.jpg" alt="coffee roaster" />
             </div>
           </li>
           <li>
             <div class="ratio ratio-1x1">
               <img
                 src="/assets/pourover-slider-5.jpg"
-                width="526"
-                height="768"
                 alt="making pourover coffee"
               />
             </div>
@@ -165,33 +152,33 @@
       </div>
       <!-- Carousel end -->
     </div>
-    <div class="w-full h-96 text-white justify-between bg-[#4E94BF]">
+    <div class="h-96 w-full justify-between bg-[#4E94BF] text-white">
       <div
-        class="w-full h-96 flex flex-row justify-evenly items-center text-4xl"
+        class="flex h-96 w-full flex-row items-center justify-evenly text-4xl"
       >
-        <div class="flex flex-col justify-center w-64 items-center">
+        <div class="flex w-64 flex-col items-center justify-center">
           <i class="fas fa-coffee text-8xl"></i>
-          <p class="text-4xl mt-10">Veit Fermentum</p>
+          <p class="mt-10 text-4xl">Veit Fermentum</p>
         </div>
-        <div class="flex flex-col justify-center w-64 items-center">
+        <div class="flex w-64 flex-col items-center justify-center">
           <i class="fas fa-trophy text-8xl"></i>
-          <p class="text-4xl mt-10">Blandit</p>
+          <p class="mt-10 text-4xl">Blandit</p>
         </div>
-        <div class="flex flex-col justify-center w-64 items-center">
+        <div class="flex w-64 flex-col items-center justify-center">
           <i class="far fa-smile text-8xl"></i>
-          <p class="text-4xl mt-10">Praesent Vitae</p>
+          <p class="mt-10 text-4xl">Praesent Vitae</p>
         </div>
-        <div class="flex flex-col justify-center w-64 items-center">
+        <div class="flex w-64 flex-col items-center justify-center">
           <i class="far fa-check-circle text-8xl"></i>
-          <p class="text-4xl mt-10">Scelerisque</p>
+          <p class="mt-10 text-4xl">Scelerisque</p>
         </div>
       </div>
     </div>
     <footer
-      class="relative w-full h-96 flex justify-between text-white bg-zinc-800"
+      class="relative flex h-96 w-full justify-between bg-zinc-800 text-white"
     >
       <div class="">
-        <div class="flex w-64 justify-end mt-10">
+        <div class="mt-10 flex w-64 justify-end">
           <img
             src="/assets/tmdLogo.svg"
             alt="Site TMD Logo"
@@ -200,7 +187,7 @@
           />
         </div>
       </div>
-      <div class="w-3/5 mt-24">
+      <div class="mt-24 w-3/5">
         <ul class="flex justify-evenly text-xl">
           <li><a href="#">neque porro</a></li>
           <li><a href="#">quisquam</a></li>
