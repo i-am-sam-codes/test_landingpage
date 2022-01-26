@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/i-am-sam-codes/test_landingpage/issues"
   },
-  "homepage": "https://github.com/i-am-sam-codes/test_landingpage#readme",
+  "homepage": "https://github.com/i-am-sam-codes/test_landingpage",
   "devDependencies": {
     "tailwindcss": "^3.0.17"
   }
