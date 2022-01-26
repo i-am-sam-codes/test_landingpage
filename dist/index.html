@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e09acea6a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--carousel--->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.3.1/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.3.1/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <title>TMD</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="flex h-[151px] w-full items-center justify-between bg-zinc-800"
+    >
+      <div class="flex w-56 justify-end">
+        <img
+          src="/assets/tmdLogo.svg"
+          alt="Site TMD Logo"
+          width="128"
+          height="128"
+        />
+      </div>
+
+      <nav class="w-3/5">
+        <ul class="flex items-center justify-evenly text-xl text-white">
+          <li class="hover:text-peach"><a href="#">Neque porro</a></li>
+          <li class="hover:text-peach"><a href="#">Quisquam</a></li>
+          <li class="hover:text-peach"><a href="#">Dolorem ipsum</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main Page-->
+    <div class="relative flex h-screen justify-between bg-orange-50">
+      <div class="mt-24 ml-36 flex h-full w-64 flex-col">
+        <h1 class="text-8xl font-bold">VIVAMUS INTERDUM</h1>
+        <p class="mt-10 w-[450px] text-lg">
+          Quiseque facillisis Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Voluptatum eveniet saepe rerum, iusto dolorem ad ea?
+          Maiores reprehenderit maxime quos quibusdam porro. Corporis ut quam
+          consectetur quasi ipsa quas consequuntur.
+        </p>
+        <button
+          class="mt-10 h-10 w-40 rounded-lg bg-[#4E94BF] text-white hover:bg-[#B4B58A]"
+        >
+          Learn More
+        </button>
+      </div>
+      <div>
+        <img
+          src="/assets/CoffeeBag-Header.png"
+          alt="Battlecreek coffee decaf coffee bag"
+          class="h-100 absolute top-8 left-1/2 -rotate-[21deg]"
+        />
+      </div>
+    </div>
+    <div class="flex h-96 bg-[#F3A897]">
+      <div class="ml-36 mt-24 h-60 w-full border-l-8">
+        <div class="flex w-3/5 flex-col">
+          <h2 class="text-3xl font-bold">Lorem ipsum dolor site</h2>
+          <span class="mt-10 text-lg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            eius mollitia aut quaerat id quidem fugit unde cumque quis
+            doloremque, itaque sunt veniam, molestiae pariatur rem sequi quas.
+            Obcaecati, unde.
+          </span>
+
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex h-80 flex-col justify-center overflow-x-scroll bg-gradient-to-b from-[#B4B58A] to-[#F7F3ED]"
+    >
+      <div class="mt-24 flex justify-center text-3xl font-bold">
+        <h3 class="text-4xl">VIVAMUS SAGITTIS CONSEQUAT</h3>
+      </div>
+      <!-- Carousel beginning -->
+      <div
+        class="swiffy-slider slider-item-show3 slider-item-reveal slider-nav-dark slider-nav-outside-expand mt-10"
+      >
+        <ul class="slider-container py-4">
+          <li class="flex h-full w-full">
+            <img
+              class="object-cover rounded-lg"
+              src="/assets/Coffee-Cherry-slider-1.jpg"
+              alt="coffee cheeries"
+            />
+          </li>
+            <img
+              class="object-cover rounded-lg"
+              src="/assets/grower-slider-2.jpg"
+              alt="coffee grower picking coffee cherries"
+            />
+          </li>
+          <li class="flex h-full w-full">
+
+            <img
+            class="object-cover rounded-lg"
+
+              src="/assets/CoffeeWorker-slider-3.jpg"
+              alt="coffee field worker standing working"
+            />
+          </li>
+          <li class="flex h-full w-full">
+
+            <img 
+            class="object-cover rounded-lg"
+            src="/assets/Roaster-Slider-4.jpg" alt="coffee roaster" />
+          </li>
+          <li class="flex h-full w-full">
+
+            <img
+            class="object-cover rounded-lg"
+
+              src="/assets/pourover-slider-5.jpg"
+              alt="making pourover coffee"
+            />
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="slider-nav"
+          aria-label="Go to previous"
+        ></button>
+        <button
+          type="button"
+          class="slider-nav slider-nav-next"
+          aria-label="Go to next"
+        ></button>
+      </div>
+      <!-- Carousel end -->
+    </div>
+    <div class="h-96 w-full justify-between bg-[#4E94BF] text-white">
+      <div
+        class="flex h-96 w-full flex-row items-center justify-evenly text-4xl"
+      >
+        <div class="flex w-64 flex-col items-center justify-center">
+          <i class="fas fa-coffee text-8xl"></i>
+          <p class="mt-10 text-4xl">Veit Fermentum</p>
+        </div>
+        <div class="flex w-64 flex-col items-center justify-center">
+          <i class="fas fa-trophy text-8xl"></i>
+          <p class="mt-10 text-4xl">Blandit</p>
+        </div>
+        <div class="flex w-64 flex-col items-center justify-center">
+          <i class="far fa-smile text-8xl"></i>
+          <p class="mt-10 text-4xl">Praesent Vitae</p>
+        </div>
+        <div class="flex w-64 flex-col items-center justify-center">
+          <i class="far fa-check-circle text-8xl"></i>
+          <p class="mt-10 text-4xl">Scelerisque</p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="relative flex h-96 w-full justify-between bg-zinc-800 text-white"
+    >
+      <div class="">
+        <div class="mt-10 flex w-64 justify-end">
+          <img
+            src="/assets/tmdLogo.svg"
+            alt="Site TMD Logo"
+            width="128"
+            height="128"
+          />
+        </div>
+      </div>
+      <div class="mt-24 w-3/5">
+        <ul class="flex justify-evenly text-xl">
+          <li><a href="#">neque porro</a></li>
+          <li><a href="#">quisquam</a></li>
+          <li><a href="#">dolorem ipsum</a></li>
+        </ul>
+      </div>
+      <div class="absolute bottom-16 right-24 text-3xl">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube-square"></i>
+      </div>
+    </footer>
+  </body>
+</html>
